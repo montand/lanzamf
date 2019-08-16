@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lanzador de módulos MF</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="site-content">
+
+		<div class="header">
+			<h2 class="section-title">Módulos MF</h2>
+			<h3>Seleccione el módulo desdeado para abrirlo </h3>
+		</div>
+
+		<div class="project-list">
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/366/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">Presupuesto Basado en Resultados</h2>
+						<small class="project__category"><a href="http://187.163.1.30/scriptcase/app/PBR_estable/login/" target="_blank" >IR AL MÓDULO</a></small>
+					</div>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/201/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">XML</h2>
+						<small class="project__category"><a href="#">IR AL MÓDULO</a></small>
+					</div>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/192/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">Talleres</h2>
+						<small class="project__category"><a href="#">IR AL MÓDULO</a></small>
+					</div>
+				</div>
+			</div>
+
+			<br/>
+
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/431/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">Control de Gasto</h2>
+						<small class="project__category"><a href="#">IR AL MÓDULO</a></small>
+					</div>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/8/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">Reportes ASEJ</h2>
+						<small class="project__category"><a href="#">IR AL MÓDULO</a></small>
+					</div>
+				</div>
+			</div>
+
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/1026/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">Proveedores</h2>
+						<small class="project__category"><a href="#">IR AL MÓDULO</a></small>
+					</div>
+				</div>
+			</div>
+
+			<br/>
+
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/160/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">Transparencia</h2>
+						<small class="project__category"><a href="#">IR AL MÓDULO</a></small>
+					</div>
+				</div>
+			</div>
+
+			<div class="project"></div>
+
+			<div class="project">
+				<div class="project__card">
+					<a href="" class="project__image"><img src="https://picsum.photos/id/122/250" alt=""></a>
+					<div class="project__detail">
+						<h2 class="project__title">Recursos Materiales</h2>
+						<small class="project__category"><a href="http://www.sat.gob.mx" target="_blank">Adquisiciones</a></small>
+						<small class="project__category"><a href="http://www.zapopan.gob.mx" target="_blank">Patrimonio</a></small>
+						<small class="project__category"><a href="http://www.inegi.org.mx" target="_blank">Almacén</a></small>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+
+	</div>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.1.min.js"><\\/script>')</script>
+
+	<script>window.twttr = (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0],
+	    t = window.twttr || {};
+	  if (d.getElementById(id)) return t;
+	  js = d.createElement(s);
+	  js.id = id;
+	  js.src = "https://platform.twitter.com/widgets.js";
+	  fjs.parentNode.insertBefore(js, fjs);
+
+	  t._e = [];
+	  t.ready = function(f) {
+	    t._e.push(f);
+	  };
+
+	  return t;
+	}(document, "script", "twitter-wjs"));</script>
+	<script src="dist/js/jquery.hover3d.js" ></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".project").hover3d({
+				selector: ".project__card"
+			});
+
+			$(".movie").hover3d({
+				selector: ".movie__card",
+				shine: true,
+				sensitivity: 20,
+			});
+		});
+
+	</script>
+</body>
+</html>
